@@ -1,0 +1,156 @@
+
+
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=893&q=80);
+}
+
+#header {
+
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color: rgb(253, 252, 252);
+    margin-top: -50px;
+    background-color: transparent;
+    background-image: linear-gradient(225deg, rgba(255, 199, 150, 0.082) 0%, rgba(238, 146, 220, 0.219) 100%);
+   }
+
+#text{
+    margin-top: -290px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(253, 252, 252);
+    padding: 15px 25px;
+}
+
+h1{
+ 
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(253, 252, 252);
+    padding:  15px;
+  }
+
+h2{
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(253, 252, 252);
+   
+}
+p{
+    margin-top: 50px;
+    color: rgb(253, 252, 252); 
+}
+#container{
+    margin-top: 250px;
+display: flex;
+justify-content: space-between;
+ 
+
+}
+
+#btn{
+    align-items: center;
+    margin-top: 300px;
+    background-color: transparent;
+    background-image: linear-gradient(225deg, rgba(255, 199, 150, 0.137) 0%, rgba(238, 146, 220, 0.377) 100%);
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px solid    rgb(253, 252, 252);;
+}
+#btn:hover {
+    background-color: transparent;
+    background-image: linear-gradient(225deg, rgba(255,199,150,0.7) 0%, rgba(238, 146, 220, 0.5) 100%);
+}
+
+
+a{ color: rgb(253, 252, 252);;
+    text-decoration: none;
+    font-size: 20px;
+} 
+.social{
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+       .fas{
+       font-size: 20px;
+       color:  #74066a;
+       margin: 7px;
+       padding: 7px;
+       border-radius: 50%;
+       background-color: #f7f7f2;
+   }
+
+
+
+   @media all and (max-width:800px){
+
+
+    h1{
+    font-size: 70px;
+    }
+
+    h2{
+    font-size: 60px;
+    }
+
+ 
+#container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+ min-height: 90vh;
+ 
+ 
+   }
+
+   #btn{
+    align-items: center;
+    padding: 15px 25px;
+    margin:20px;
+  
+    
+}
+.social{
+    text-align: center;
+    margin-top: -50px;
+}
+}
+@media all and (max-width:500px){
+
+
+    h1{
+    font-size: 40px;
+    }
+
+    h2{
+    font-size: 30px;
+    }
+
+ 
+#container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+ min-height: 90vh;
+ margin-bottom: 50px;
+ 
+   }
+
+   #btn{
+    align-items: center;
+    padding: 15px 25px;
+    margin:20px;
+    
+}
+
+}
